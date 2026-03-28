@@ -12,3 +12,5 @@ WIFI = protocolo de camada física.
 lib => PubSubClient
 
 ! nao pode usar delay
+
+https://www.hivemq.com/
