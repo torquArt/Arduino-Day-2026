@@ -8,3 +8,7 @@ WIFI = protocolo de camada física.
     Conexão: Sempre ativa                                          Efêmera (abre fecha por requisições)
     Overhead: Leve, cabeçalho binário pequeno (2 bytes)            Pesado, cabeça~hos de texto verbosos
     Uso em IOT, redes instáveis, telemetria em tempo real          Uso em Web APIs, documentos
+
+lib => PubSubClient
+
+! nao pode usar delay
