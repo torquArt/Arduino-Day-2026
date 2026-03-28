@@ -1,1 +1,10 @@
+MQTT => protocolo de comunicação => conjunto de regras que permite que dois ou
+mais dispositivos se comuniquem e troquem dados de forma estruturada.
 
+WIFI = protocolo de camada física.
+
+1. MQTT vs 2. HTTP => padrão para a web baseada em requisições
+1.  Modelo: Assíncrono, desacoplado (produtor/consumidor)    vs  2. Síncrono (Cliente-Servidor direto)
+    Conexão: Sempre ativa                                          Efêmera (abre fecha por requisições)
+    Overhead: Leve, cabeçalho binário pequeno (2 bytes)            Pesado, cabeça~hos de texto verbosos
+    Uso em IOT, redes instáveis, telemetria em tempo real          Uso em Web APIs, documentos
